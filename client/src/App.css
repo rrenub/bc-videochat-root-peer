@@ -1,0 +1,68 @@
+body, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.main {
+  margin: 2em;
+}
+
+.login {
+	margin: 4em 0;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.logo {
+  color: white;
+  font-size: large;
+  margin: 1em;
+  font-weight: bold;
+}
+
+.app_wrapper {
+	background: #FFF;
+	padding: 2rem;
+	min-height: 85vh;
+}
+
+.app_content {
+	margin: 1rem;
+}
+
+.main_layout {
+  min-height: 100vh;
+}
+
+.footer_wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.github_link {
+    cursor: pointer;
+  	color: inherit;
+}
+
+.login-container{
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 20px;
+	padding: 3rem;
+	gap: 1rem
+}
